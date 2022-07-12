@@ -1,0 +1,16 @@
+﻿[*.cs]
+
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = none
+dotnet_diagnostic.SA0001.severity = none
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.SX1309.severity = error
+
+# IDE0005: Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = error
+
+# CS0618: Type or member is obsolete
+dotnet_diagnostic.CS0618.severity = silent
+
+# SA1401: Fields should be private
+dotnet_diagnostic.SA1401.severity = silent
